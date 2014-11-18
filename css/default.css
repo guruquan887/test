@@ -1,0 +1,108 @@
+ #frame
+            {
+                width: 540px;
+                overflow: hidden;
+                position: relative;
+                float: right;
+            }
+            #img
+            {
+                position: relative;
+                height: 216px;
+                overflow: hidden;
+            }
+            #img li
+            {
+                height: 305px;
+                width: 100%;
+                display: none;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+            #btn
+            {
+                width: 540px;
+                margin: 0 auto;
+                text-align: right;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+            }
+            #btn span
+            {
+                text-align: center;
+                display: inline-block;
+                cursor: pointer;
+                margin: 0 2px;
+                width: 20px;
+                border: 1px solid #000;
+                height: 8px;
+                background: #fff;
+            }
+            #btn span.hov
+            {
+                background: #003366;
+                border: 1px solid #000;
+            }
+            
+             .myScroll
+        {
+            height: 98px;
+            overflow: hidden;
+            zoom: 1;
+        }
+        
+        .myBlock
+        {
+            overflow: hidden;
+            float: left;
+            display: inline;
+        }
+        .myBlock ul
+        {
+            width: 100%;
+            overflow: hidden;
+            zoom: 1;
+            list-style: none;
+        }
+        .myBlock ul li
+        {
+            width: 115px;
+            float: left;
+            display: inline;
+        }
+        .myBlock ul li:hover
+        {
+        }
+        .myBlock dl
+        {
+            width: 98px;
+            margin: 0 auto;
+            list-style: none;
+        }
+        .myBlock dl dt
+        {
+            width: 98px;
+            height: 98px;
+            overflow: hidden;
+            background-color: #FFF;
+        }
+        .myBlock dl dt img
+        {
+            width: 98px;
+            height: 98px;
+        }
+        
+        .myClone
+        {
+            overflow: hidden;
+            zoom: 1;
+        }
+        .myClone ul
+        {
+            float: left;
+            display: inline;
+        }
+        
+         
