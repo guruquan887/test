@@ -1,0 +1,114 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS3按钮特效</title>
+<style type="text/css">
+body{background: #dcdcdc;}
+.box{width: 550px;text-align: center;line-height: 46px;margin:40px auto;}
+.btn{position: relative;font-weight:bold;width: 224px;height: 24px;border-radius: 3px;border: 1px solid #c0c0c0;margin:0 50px 40px 0;}
+/*.btn:nth-child(3n){margin-right: 0;}*/
+.btn:nth-child(1){
+color: #8c3e4a;
+border-color: #ed7989;  
+box-shadow:inset 0 1px 0 #f9a1b1,0 1px 0 rgba(0,0,0,.2);
+background:-webkit-linear-gradient(top,#f78297,#f56c7e); 
+background:-moz-linear-gradient(top,#f78297,#f56c7e); 
+background:-o-linear-gradient(top,#f78297,#f56c7e); 
+background:-ms-linear-gradient(top,#f78297,#f56c7e); 
+background:linear-gradient(top,#f78297,#f56c7e); 
+}
+.btn:nth-child(1):hover{
+background:-webkit-linear-gradient(top,#fbacbb,#f4798f); 
+background:-moz-linear-gradient(top,#fbacbb,#f4798f); 
+background:-o-linear-gradient(top,#fbacbb,#f4798f); 
+background:-ms-linear-gradient(top,#fbacbb,#f4798f); 
+background:linear-gradient(top,#fbacbb,#f4798f); 
+}
+.btn:nth-child(1):active{
+top:4px;
+box-shadow:inset 0 1px 3px #aa2c3d;
+background:-webkit-linear-gradient(top,#e15c6d,#e15c6d); 
+background:-moz-linear-gradient(top,#e15c6d,#e15c6d); 
+background:-o-linear-gradient(top,#e15c6d,#e15c6d); 
+background:-ms-linear-gradient(top,#e15c6d,#e15c6d); 
+background:linear-gradient(top,#e15c6d,#e15c6d); 
+}
+
+.btn:nth-child(2){ 
+color: #a67ea0; 
+border-color: #e6addf; 
+box-shadow:inset 0 1px 0 #ffdcfb,0 1px 0 rgba(0,0,0,.2);
+background:-webkit-linear-gradient(top,#ffd0f9,#ffc2f7); 
+background:-moz-linear-gradient(top,#ffd0f9,#ffc2f7); 
+background:-o-linear-gradient(top,#ffd0f9,#ffc2f7); 
+background:-ms-linear-gradient(top,#ffd0f9,#ffc2f7); 
+background:linear-gradient(top,#ffd0f9,#ffc2f7); 
+}
+.btn:nth-child(2):hover{
+background:-webkit-linear-gradient(top,#ffdefb,#fdc7f6); 
+background:-moz-linear-gradient(top,#ffdefb,#fdc7f6); 
+background:-o-linear-gradient(top,#ffdefb,#ffc2f7); 
+background:-ms-linear-gradient(top,#ffdefb,#ffc2f7); 
+background:linear-gradient(top,#ffdefb,#ffc2f7); 
+}
+.btn:nth-child(2):active{
+top:4px;
+box-shadow:inset 0 1px 3px #be27aa;
+background:-webkit-linear-gradient(top,#f3b0ea,#f3b0ea); 
+background:-moz-linear-gradient(top,#f3b0ea,#f3b0ea); 
+background:-o-linear-gradient(top,#f3b0ea,#f3b0ea); 
+background:-ms-linear-gradient(top,#f3b0ea,#f3b0ea); 
+background:linear-gradient(top,#f3b0ea,#f3b0ea); 
+}
+.btn:before,
+.btn:after{
+position: absolute;
+content: "";
+height: 50%;
+border-radius: 50%;
+z-index: -1;
+}
+.btn:before {
+width: 90%;
+left: 5%;
+top:12%;
+box-shadow: 0 -7px 4px rgba(0,0,0,0.3);
+}
+.btn:active:before {
+width: 90%;
+left: 5%;
+top:12%;
+box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.btn:after {
+width: 80%;
+left: 10%;
+bottom: 9%;
+box-shadow: 0 7px 4px rgba(0,0,0,0.4);
+}
+.btn:active:after {
+width: 80%;
+left: 10%;
+bottom: 9%;
+box-shadow: 0 0 0 rgba(0,0,0,0.4);
+}
+/*.box p:last-child{ 
+font-size: 20px; 
+font-weight: bold;
+}
+.box p:last-child span{ 
+color: #fff;*/
+}
+</style>
+</head>
+<body>
+<div class="page">
+	<div class="box">
+		<div>
+			<button type="button" class="btn">进入游戏</button>
+			<button type="button" class="btn">规则说明</button>
+		</div>
+	</div>
+
+</div>
+
+</body></html>
