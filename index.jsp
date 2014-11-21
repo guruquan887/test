@@ -13,29 +13,20 @@
     	<div>
 		</div>
         <div class="tzy_main">
-			<div class="tzy_dh">
-			<ul>
-			<li class="tzy_dh_1"><a href="/"></a></li>
-			<li class="tzy_dh_2"><a href="/News"></a></li>
-			<li class="tzy_dh_3"><a href="/Down.aspx"></a></li>
-			<li class="tzy_dh_4"><a href="/Members"></a></li>
-			<li class="tzy_dh_5"><a href="/Match"></a></li>
-			<li class="tzy_dh_6"><a href="/Mall"></a></li>
-			<li class="tzy_dh_7"><a href="/Prize"></a></li>
-			<li class="tzy_dh_8"><a href="/Pay"></a></li>
-			</ul>
-			</div>
+        	<!-- 导航 -->
+            <%@ include file="daohang.jsp" %>
+            <!-- 导航end -->
 			<div class=" tzy_main_1">
 				<div class=" tzy_main_1_left">
-				<ul>
-				<li class="tzy_main_1_left" id="sw1">
-				<a href="/Down.aspx" ><img src="images/web/ananan_1.jpg" width="232" height="76"/></a>
-				</li>
-				<li class="shouji_flash" id="sw2">
-				<a href="/app.aspx" ><img src="images/web/ananan_2.jpg" width="232" height="76"/></a>
-				</li>
-				<li class=" tzy_main_1_left3"><a href="/Register.aspx"></a></li>
-				</ul>
+                    <ul>
+                        <li class="tzy_main_1_left" id="sw1">
+                        <a href="/Down.aspx" ><img src="images/web/ananan_1.jpg" width="232" height="76"/></a>
+                        </li>
+                        <li class="shouji_flash" id="sw2">
+                        <a href="/app.aspx" ><img src="images/web/ananan_2.jpg" width="232" height="76"/></a>
+                        </li>
+                        <li class=" tzy_main_1_left3"><a href="/Register.aspx"></a></li>
+                    </ul>
 				</div>
 				<div class=" tzy_main_1_gg">
 					<div id="frame">

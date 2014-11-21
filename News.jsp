@@ -14,38 +14,41 @@
 </head>
 <body >
 <div class="container" id="containerDiv">
-<div class="tzy_header">
-<div class="tzy_header_2">
-<div class="tzy_header_3">
-<div class="tzy_biaoti"><img src="http://www.669.com/images/Web/tzy_top_2.jpg" alt="" /></div>
-<div class="tzy_logo">
-<embed width="226" height="86" src="http://www.669.com/images/swf/logo3.swf" quality="1" wmode="transparent" menu="true" loop="true" play="true" scale="showall" type="application/x-shockwave-flash"></embed>
-</div>
-<div class="tzy_swsy">
-<ul>
-<li class="tzy_dd"><a href="/Login.aspx?reurl=http%3a%2f%2fwww.669.com%2fNews%2fdefault.aspx" >登录</a></li>
-<li class="tzy_dd"><a href="/Register.aspx?reurl=http%3a%2f%2fwww.669.com%2fNews%2fdefault.aspx">注册</a></li>
-<li class="tzy_dd"><a href="#">设为首页</a></li>
-<li><a href="#">添加到收藏夹</a></li>
-<li class="tzy_dd"></li>
-</ul>
-</div>
-</div>
-<div class="tzy_dh">
-<ul>
-<li class="tzy_dh_1"><a href="/"></a></li>
-<li class="tzy_dh_2"><a href="/News"></a></li>
-<li class="tzy_dh_3"><a href="/Down.aspx"></a></li>
-<li class="tzy_dh_4"><a href="/Members"></a></li>
-<li class="tzy_dh_5"><a href="/Match"></a></li>
-<li class="tzy_dh_6"><a href="/Mall"></a></li>
-<li class="tzy_dh_7"><a href="/Prize"></a></li>
-<li class="tzy_dh_8"><a href="http://www.669.com/Pay"></a></li>
-</ul>
-</div>
-</div>
-<div class="tzy_dh_tu"></div>
-</div>
+	<div class="tzy_header">
+   		<div class="tzy_header_2">
+        	<div class="tzy_header_3">
+            	<div class="tzy_biaoti"><img src="http://www.669.com/images/Web/tzy_top_2.jpg" alt="" /></div>
+                <div class="tzy_logo">
+                	<embed width="226" height="86" src="http://www.669.com/images/swf/logo3.swf" quality="1" wmode="transparent" menu="true" loop="true" play="true" scale="showall" type="application/x-shockwave-flash"></embed>
+                </div>
+                <div class="tzy_swsy">
+                    <ul>
+                        <li class="tzy_dd"><a href="/Login.aspx?reurl=http%3a%2f%2fwww.669.com%2fNews%2fdefault.aspx" >登录</a></li>
+                        <li class="tzy_dd"><a href="/Register.aspx?reurl=http%3a%2f%2fwww.669.com%2fNews%2fdefault.aspx">注册</a></li>
+                        <li class="tzy_dd"><a href="#">设为首页</a></li>
+                        <li><a href="#">添加到收藏夹</a></li>
+                        <li class="tzy_dd"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tzy_dh">
+                <ul>
+                    <li class="tzy_dh_1"><a href="/"></a></li>
+                    <li class="tzy_dh_2"><a href="/News"></a></li>
+                    <li class="tzy_dh_3"><a href="/Down.aspx"></a></li>
+                    <li class="tzy_dh_4"><a href="/Members"></a></li>
+                    <li class="tzy_dh_5"><a href="/Match"></a></li>
+                    <li class="tzy_dh_6"><a href="/Mall"></a></li>
+                    <li class="tzy_dh_7"><a href="/Prize"></a></li>
+                    <li class="tzy_dh_8"><a href="http://www.669.com/Pay"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tzy_dh_tu"></div>
+    </div>
+    <!-- 导航 -->
+	<%@ include file="header.jsp" %>
+    <!-- 导航end -->
 <div class="tzy_bao">
 <div class="tzy_news">
 <div class="tzy_ny_left">
@@ -95,17 +98,19 @@
 <div class="tzy_hd_nr">
 <div id="content1_NewsList" class="tzy_news_box">
 <dl>
-<dt><a href="/announce/595.html" style='color:Red; font-weight:bold'
-><b>公告</b>平台于21日凌晨0点更新公告</a></dt><dd>2014-11-19</dd>
+<dt><a href="/announce/599.html" style='color:Red; font-weight:bold'
+#FF3366><b>公告</b>时段赛延后开启</a></dt><dd>2014-11-21</dd>
+<dt><a href="/announce/598.html" 
+#FF33CC><b>公告</b>斗地主大乱斗，百万奖池等你拿</a></dt><dd>2014-11-21</dd>
 <dt><a href="/announce/594.html" 
 ><b>公告</b>全新斗地主比赛火爆上线</a></dt><dd>2014-11-19</dd>
 <dt><a href="/announce/589.html" 
 #CC3333><b>公告</b>双十一特惠袭来</a></dt><dd>2014-11-11</dd>
 <dt><a href="/announce/587.html" 
 #FF6666><b>公告</b>微信支付奖励名单</a></dt><dd>2014-10-30</dd>
+</dl><dl>
 <dt><a href="/announce/451.html" 
 ><b>公告</b>《紫金阁》作弊处罚制度</a></dt><dd>2014-10-17</dd>
-</dl><dl>
 <dt><a href="/announce/500.html" 
 ><b>公告</b>《帐号安全规范》</a></dt><dd>2014-10-17</dd>
 <dt><a href="/announce/581.html" 
@@ -114,9 +119,9 @@
 ><b>公告</b>身娇肉贵美人鱼来到海底世界</a></dt><dd>2014-10-13</dd>
 <dt><a href="/announce/570.html" 
 #FF3399><b>公告</b>手机支付宝充值送10%</a></dt><dd>2014-09-29</dd>
+</dl><dl>
 <dt><a href="/newscenter/565.html" 
 ><b>新闻</b>棋牌行业：解密点点妙合作内幕 分成竟高达70%</a></dt><dd>2014-09-23</dd>
-</dl><dl>
 <dt><a href="/newscenter/564.html" 
 ><b>新闻</b>走进点点妙 且看棋牌大亨如何颠覆快播江湖</a></dt><dd>2014-09-23</dd>
 <dt><a href="/announce/560.html" 
@@ -125,8 +130,6 @@
 #FF33CC><b>公告</b>紫金阁九月活动荟</a></dt><dd>2014-09-17</dd>
 <dt><a href="/announce/551.html" 
 ><b>公告</b>斗地主开启金字塔寻宝之旅</a></dt><dd>2014-09-17</dd>
-<dt><a href="/newscenter/550.html" 
-#FF6699><b>新闻</b>传统棋牌行业遇冷 乐猴借点点妙火爆四川</a></dt><dd>2014-09-16</dd>
 </dl>
 </div>
 </div>
